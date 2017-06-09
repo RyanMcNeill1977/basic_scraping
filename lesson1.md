@@ -97,12 +97,27 @@ Wow. Look at that. Easy right?
 
 ## Now you try. 
 
-Now you try scraping a table from a [Wikipedia page](https://en.wikipedia.org/wiki/United_States_presidential_election,_2016). 
+Let's try two examples. 
 
-Answer: 
+Now you try scraping a table from a [Wikipedia page](https://en.wikipedia.org/wiki/United_States_presidential_election,_2016). Let's grab the electoral results found in this table: 
+
+<screen shot here>
+
+And grab the table from [this BLS site](https://www.bls.gov/news.release/archives/metro_05312017.htm). 
+
+
+### Answers
+
+Answer to Example 1: 
 
 ```
 =ImportHTML("https://en.wikipedia.org/wiki/United_States_presidential_election,_2016", "table", "35")
+```
+
+Answer to Example 2: 
+
+```
+=ImportHTML("https://www.bls.gov/news.release/archives/metro_05312017.htm", "table", "1")
 ```
 
 
