@@ -95,6 +95,9 @@ Still not right. Maybe the third time is the charm.
 
 Wow. Look at that. Easy right?
 
+## Now you try. 
+
+Now you try scraping a table from a [Wikipedia page](https://en.wikipedia.org/wiki/United_States_presidential_election,_2016). 
 
 
 
