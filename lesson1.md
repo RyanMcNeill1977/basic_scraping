@@ -61,11 +61,39 @@ Now to truly make it usable, you'd want to clean up the header row.
 
 So that's a lot of steps, right? For years, we had to do it that way. But now there's something simpler: Google Sheets. 
 
-With the use of just a single function, you can bring the same table into Google Sheets. 
+With the use of just a single function, you can bring the same table into Google Sheets. It's really simple. 
 
 ```
-stuff
+=ImportHTML("url","element", "number of element")
 ```
+
+It's pretty self-explanatory, right? The first argument, "url", is the web address. 
+
+The second argument, "element", is either "table" or "list". We're going to use "table" for this exercise.
+
+The third argument is the number of of the element (the list or the table). The numbers start at 0, not 1.  
+
+So let's give it a try. Open up Google Sheets and get a nice, blank worksheet. 
+
+In cell A1, type this:
+
+```
+=ImportHTML("https://en.wikipedia.org/wiki/List_of_United_Kingdom_Parliament_constituencies", "table", "0")
+```
+
+Nope. Let's try again. 
+
+```
+=ImportHTML("https://en.wikipedia.org/wiki/List_of_United_Kingdom_Parliament_constituencies", "table", "1")
+```
+
+Still not right. Maybe the third time is the charm. 
+
+```
+=ImportHTML("https://en.wikipedia.org/wiki/List_of_United_Kingdom_Parliament_constituencies", "table", "2")
+```
+
+Wow. Look at that. Easy right?
 
 
 
