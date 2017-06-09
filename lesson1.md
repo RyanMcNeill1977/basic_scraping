@@ -99,7 +99,11 @@ Wow. Look at that. Easy right?
 
 Now you try scraping a table from a [Wikipedia page](https://en.wikipedia.org/wiki/United_States_presidential_election,_2016). 
 
+Answer: 
 
+```
+=ImportHTML("https://en.wikipedia.org/wiki/United_States_presidential_election,_2016", "table", "35")
+```
 
 
 
