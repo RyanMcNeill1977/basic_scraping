@@ -59,10 +59,17 @@ XPath is an expression that allows you to point toward things, or groups of thin
 
 Luckily, your Chrome browser provides a pretty good way of figuring out the XPath of an element without much work. 
 
-Go to Chrome's dropdown menu. Select "More tools" and then "Developer tools."
+You're interested in keeping an eye on currency rates. My employer, Thomson Reuters, has a table of some selected exchange rates [on this website](http://www.reuters.com/finance/currencies).
+
+Let's say we're only interested in how the Yankee Dollar compares to the Japanese Yen and the Australian Dollar.
+
+Right click anywhere on the page and select "Inspect Element."
 
 ![Here's what you want.](../master/scraping7.jpg)
 
+Click on the selector in the developer tools window. 
+
+![Here's what you want.](../master/scraping8.jpg)
 
 
 
