@@ -22,6 +22,15 @@ The most basic web scraping problem is harvesting a bunch of files from a websit
 
 ![Here's what you want.](../master/scraping1.jpg)
 
+Well, it's kind of annoying to grab each one. But there's an add-on for Firefox, [called DownloadThemAll!](https://addons.mozilla.org/en-US/firefox/addon/downthemall/), which can help us automate the downloads and make our lives easier. 
+
+The FDA releases two files for each quarter of data --- one in XML and another in ASCII text.  
+
+Let's only grab the ASCII files. We can use DownloadThemAll's filter. 
+
+![Here's what you want.](../master/scraping2.jpg)
+
+
 
 
 
