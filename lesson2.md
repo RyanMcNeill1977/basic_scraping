@@ -52,6 +52,16 @@ Now you try scraping a table from a [Wikipedia page](https://en.wikipedia.org/wi
 And grab the table from [this BLS site](https://www.bls.gov/news.release/archives/metro_05312017.htm). 
 
 
+
+
+## The XML Miracle
+
+I first learned this trick from Charlie Szymanski, a 
+
+
+
+
+
 ### Answers
 
 Answer to Example 1: 
