@@ -15,6 +15,7 @@ For advanced scraping, there's no substitute for being able to write a scraper i
 ### What we're going to learn today
 
 Lesson 1: DownloadThemAll, PDF table extraction with Tabula, HTML tables into Excel
+
 Lesson 2: Importing an HTML table into Google Sheets, Using XPATH with Google Sheets, Inspecting a webby map and grabbing the data
 
 
