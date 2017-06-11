@@ -59,6 +59,9 @@ XPath is an expression that allows you to point toward things, or groups of thin
 
 Luckily, your Chrome browser provides a pretty good way of figuring out the XPath of an element without much work. 
 
+Go to Chrome's dropdown menu. Select "More tools" and then "Developer tools."
+
+![Here's what you want.](../master/scraping7.jpg)
 
 
 
