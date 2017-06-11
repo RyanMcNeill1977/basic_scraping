@@ -30,9 +30,12 @@ Let's only grab the ASCII files. We can use DownloadThemAll's filter.
 
 ![Here's what you want.](../master/scraping2.jpg)
 
+Make sure you tell DownloadThemAll where you want to place the files, then click Start. 
+
+Pretty cool, huh?
 
 
-
+## HTML to Excel
 
 The best way to get data is a nice, formatted dataset. An Excel sheet. A CSV. But, unfortunately for us, it isn't always that simple. 
 
