@@ -47,7 +47,7 @@ Wow. Look at that. Easy right?
 
 There's another option you can use when scraping websites. It gives you the ability to be a little more precise, but also requires a little more effort. 
 
-It's called importXML and it looks almost the same as importHTML, but with one less argument:
+It's called importXML and it looks almost the same as importHTML, but with two arguments instead of three:
 
 ```
 =importXML("yourwebsite","your xpath")
