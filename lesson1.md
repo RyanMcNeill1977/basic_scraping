@@ -35,6 +35,19 @@ Make sure you tell DownloadThemAll where you want to place the files, then click
 
 Pretty cool, huh?
 
+## Extracting tables from PDFs using Tabula
+
+Bureaucrats love PDFs. But reporters hate them. Why?
+
+Because PDFs are useless for any kind of meaningful analysis. If you want to analyze the data trapped in PDFs, you need to find a way to get the data into something like Excel or Google Sheets. 
+
+Well, let's learn how to free the data. 
+
+Let's use [this April home sales report](https://www.census.gov/construction/nrs/pdf/newressales.pdf) for New York from the U.S. Census Bureau. Spend a little time taking a look at the tables inside the PDF. 
+
+
+
+
 
 ## HTML to Excel
 
