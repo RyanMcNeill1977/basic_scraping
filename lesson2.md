@@ -41,6 +41,32 @@ Still not right. Maybe the third time is the charm.
 
 Wow. Look at that. Easy right?
 
+
+
+## The importXML function in Google Sheets
+
+There's another option you can use when scraping websites. It gives you the ability to be a little more precise, but also requires a little more effort. 
+
+It's called importXML and it looks almost the same as importHTML, but with one less argument:
+
+'''
+=importXML("yourwebsite","your xpath")
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Now you try. 
 
 Let's try two examples. 
