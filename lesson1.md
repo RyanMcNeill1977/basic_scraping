@@ -59,7 +59,13 @@ Navigate to the Census Bureau housing PDF we downloaded and select it. Comet Doc
 
 ![Here's what you want.](../master/scraping5.jpg)
 
+Now drag your uploaded file into the area underneath the convert button. In the next box, to the left of where you just dragged your file, click on "to Excel." Then enter your email address and hit convert. 
 
+![Here's what you want.](../master/scraping6.jpg)
+
+Now wait a short bit and check your email. Comet Docs will send you an email when your file is ready. 
+
+Once you get it, open it up. Voila! 
 
 ## HTML to Excel
 
