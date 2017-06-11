@@ -12,8 +12,9 @@ For really advanced scraping, there's no substitute for being able to write a sc
 
 ### What we're going to learn today
 
-Lesson 1: DownloadThemAll, HTML tables into Excel, Importing an HTML table into Google Sheets
-Lesson 2:
+Lesson 1: DownloadThemAll, PDF table extraction with Tabula, HTML tables into Excel
+Lesson 2: Importing an HTML table into Google Sheets, Using XPATH with Google Sheets
+
 
 
 ## DownloadThemAll!
