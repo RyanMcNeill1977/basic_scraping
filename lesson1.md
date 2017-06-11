@@ -45,7 +45,19 @@ Well, let's learn how to free the data.
 
 Let's use [this April home sales report](https://www.census.gov/construction/nrs/pdf/newressales.pdf) for New York from the U.S. Census Bureau. Spend a little time taking a look at the tables inside the PDF. 
 
+OK, now let's use [Comet Docs](https://www.cometdocs.com/), a free online file converter. We want to convert from PDF into Excel. 
 
+First thing, click on the "Go to Web App" button. 
+
+![Here's what you want.](../master/scraping3.jpg)
+
+Then click on Upload. 
+
+![Here's what you want.](../master/scraping4.jpg)
+
+Navigate to the Census Bureau housing PDF we downloaded and select it. Comet Docs will import the document. 
+
+![Here's what you want.](../master/scraping5.jpg)
 
 
 
