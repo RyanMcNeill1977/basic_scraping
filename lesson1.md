@@ -1,5 +1,30 @@
 # Scraping Data from the Web 1: Free Resources for Storytellers
 
+I try to avoid scraping at all costs. It can be a real pain. Unfortunately, scraping data off websites is unavoidable. 
+
+For really advanced scraping, there's no substitute for being able to write a scraper in a coding language, such as Python or Ruby. But the reality is that many of your scraping needs can be accomplished with a number of free tools. 
+
+### What is web scraping
+
+(credit to Rob Gebeloff, NY Times, for finding this quote):
+
+“Web scraping is the act of taking content from a website with the intent of using it for purposes outside the direct control of the site owner.”  [Source:Web Scraping : Everything You Wanted to Know (but were afraid to ask). JULY 22, 2015 by COURTNEY CLEAVES   http://resources.distilnetworks.com/h/i/111901208-web-scraping-everything-you-wanted-to-know-but-were-afraid-to-ask/181642
+
+### What we're going to learn today
+
+Lesson 1: DownloadThemAll, HTML tables into Excel, Importing an HTML table into Google Sheets
+Lesson 2:
+
+
+## DownloadThemAll!
+
+The most basic web scraping problem is harvesting a bunch of files from a website. For example, [check out how](https://www.fda.gov/drugs/guidancecomplianceregulatoryinformation/surveillance/adversedrugeffects/ucm082193.htm) the U.S. Food and Drug Administration lists files for its adverse events reporting data. 
+
+![Here's what you want.](../master/scraping1.jpg)
+
+
+
+
 The best way to get data is a nice, formatted dataset. An Excel sheet. A CSV. But, unfortunately for us, it isn't always that simple. 
 
 Sometimes you see a table online that you want. For example, take a look at [this Wikipedia page](https://en.wikipedia.org/wiki/List_of_United_States_presidential_elections_by_popular_vote_margin)
