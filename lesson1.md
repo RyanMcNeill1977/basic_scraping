@@ -2,7 +2,9 @@
 
 I try to avoid scraping at all costs. It can be a real pain. Unfortunately, scraping data off websites is unavoidable. 
 
-For really advanced scraping, there's no substitute for being able to write a scraper in a coding language, such as Python or Ruby. But the reality is that many of your scraping needs can be accomplished with a number of free tools. 
+For advanced scraping, there's no substitute for being able to write a scraper in a coding language, such as Python or Ruby. But the reality is that many of your scraping needs can be accomplished with a number of free tools. 
+
+
 
 ### What is web scraping
 
