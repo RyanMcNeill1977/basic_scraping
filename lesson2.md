@@ -1,3 +1,7 @@
+# Scraping Data from the Web 2: Going farther
+
+So unfortunately, there's a number of steps involved in getting an HTML data into Excel. There's a few reasons why you might want to do it the way we just learned. But generally speaking, getting an HTML data into a spreadsheet is significantly easier using Google Sheets. Let's learn how. 
+
 
 ## Importing an HTML table using Google Sheets. 
 
