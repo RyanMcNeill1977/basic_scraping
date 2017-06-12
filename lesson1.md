@@ -232,5 +232,16 @@ Still not right. Maybe the third time is the charm.
 Wow. Look at that. Easy right?
 
 
+## Now you try. 
+
+Try some on your own. 
+
+First try scraping a table using =importHTML from a [Wikipedia page](https://en.wikipedia.org/wiki/United_States_presidential_election,_2016). Let's grab the electoral results found in this table: 
+
+
+![Here's what you want.](../master/scraping14.jpg)
+
+
+And use =importHTML to grab the table from [this BLS site](https://www.bls.gov/news.release/archives/metro_05312017.htm). 
 
 
