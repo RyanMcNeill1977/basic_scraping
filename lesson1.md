@@ -26,7 +26,9 @@ A few examples of what we might scrape:
 
 --- Message board postings from people seeking to get rid of adopted children. 
 
-When I first arrived at Reuters, I was assigned to work on a project that would become [The Child Exchange](http://www.reuters.com/investigates/adoption/#article/part1). A few key findings from the story were made possible via scraping. 
+--- Sports stats
+
+When I first arrived at Reuters, I was assigned to work on a project that would become [The Child Exchange](http://www.reuters.com/investigates/adoption/#article/part1). We'll talk about it in class, but the entire quantiative spine of the series was made possible by scraping. 
 
 The most important: 
 
@@ -36,13 +38,13 @@ And it allowed us to build this interactive.
 
 ![Here's what you want.](../master/scraping16.jpg)
 
+As you can see, scraping is an essential skill for reporters, no matter the beat. 
 
 ### What we're going to learn today
 
 Lesson 1: DownloadThemAll, PDF table extraction with Tabula, HTML tables into Excel
 
 Lesson 2: Importing an HTML table into Google Sheets, Using XPATH with Google Sheets, Inspecting a webby map and grabbing the data
-
 
 
 ## DownloadThemAll!
