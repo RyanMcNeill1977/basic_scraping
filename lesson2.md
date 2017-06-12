@@ -71,6 +71,39 @@ Click on the selector in the developer tools window.
 
 ![Here's what you want.](../master/scraping8.jpg)
 
+Now take the selector and click on the USD/JPY text. 
+
+![Here's what you want.](../master/scraping9.jpg)
+
+Notice how it also highlights the code in the HTML. You can then take your mouse and highlight different pieces of code in the HTML to navigate around the table. To help you out:
+
+The <TR> tags refer to table rows. So each TR is a row in the table. Let's highlight the <TR> code that highlights the USD/JPY row. 
+
+Then right click on the <TR> code you want, then choose COPY and COPY XPATH. 
+
+![Here's what you want.](../master/scraping10.jpg)
+
+OK. Now let's go to a blank Google Sheets document. Enter your XPATH code in one cell and the website address in another. 
+
+![Here's what you want.](../master/scraping11.jpg)
+
+Now in another cell, (using my example as a guide) type this: 
+
+```
+=importXML(B1, B2)
+```
+
+Wow. Pretty cool huh? You should have a screen that looks like this. 
+
+![Here's what you want.](../master/scraping12.jpg)
+
+OK. Let's repeat that step and do the US dollar/Aussie dollar row. 
+
+![Here's what you want.](../master/scraping13.jpg)
+
+
+
+
 
 
 
@@ -95,30 +128,6 @@ Now you try scraping a table from a [Wikipedia page](https://en.wikipedia.org/wi
 
 And grab the table from [this BLS site](https://www.bls.gov/news.release/archives/metro_05312017.htm). 
 
-
-
-
-## The XML Miracle
-
-I first learned this trick from Charlie Szymanski, a 
-
-
-
-
-
-### Answers
-
-Answer to Example 1: 
-
-```
-=ImportHTML("https://en.wikipedia.org/wiki/United_States_presidential_election,_2016", "table", "35")
-```
-
-Answer to Example 2: 
-
-```
-=ImportHTML("https://www.bls.gov/news.release/archives/metro_05312017.htm", "table", "1")
-```
 
 
 
