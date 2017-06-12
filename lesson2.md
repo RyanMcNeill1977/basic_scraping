@@ -138,7 +138,7 @@ First try scraping a table using =importHTML from a [Wikipedia page](https://en.
 
 And use =importHTML to grab the table from [this BLS site](https://www.bls.gov/news.release/archives/metro_05312017.htm). 
 
-Next, use =importXML and XPATH to extract the following fields from these market indices. 
+Next, use =importXML and XPATH to extract the following fields from the following [market indices found here](http://www.reuters.com/finance/markets/us). 
 
 ![Here's what you want.](../master/scraping15.jpg)
 
