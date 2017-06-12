@@ -12,7 +12,7 @@ For advanced scraping, there's no substitute for being able to write a scraper i
 
 “Web scraping is the act of taking content from a website with the intent of using it for purposes outside the direct control of the site owner.”  [Source:Web Scraping : Everything You Wanted to Know (but were afraid to ask). JULY 22, 2015 by COURTNEY CLEAVES   http://resources.distilnetworks.com/h/i/111901208-web-scraping-everything-you-wanted-to-know-but-were-afraid-to-ask/181642
 
-## Why do we scrape
+### Why do we scrape
 
 Scraping can be a pain, but it is also a way to keep you ahead of your competition. It can also help you "datify" something that isn't very structured. 
 
@@ -167,6 +167,13 @@ Voila! Doesn't that look a lot cleaner?
 
 Now to truly make it usable, you'd want to clean up the header row. 
 
+
+
+## Importing an HTML table or list using Google Sheets. 
+
+That took quite a few steps, huh? Well, there's an easier way. 
+
+
 ### First a little about HTML
 
 Underneath what you see in your web browser is a bunch of code, known as HTML (Hypertext Markup Language). It's outside the scope of this course to go deep into HTML (but there are ton of [tutorials](https://www.w3schools.com/html/) out there), but we do need to know a little.
@@ -188,7 +195,6 @@ The other thing we need to know about are lists.
 Again, let's [take a look at this page](https://www.w3schools.com/html/html_lists.asp) together to see how lists work. 
 
 
-## Importing an HTML table or list using Google Sheets. 
 
 So when we learned to import HTML tables into Excel, it took a lot of steps, right? But there's something simpler: Google Sheets. 
 
