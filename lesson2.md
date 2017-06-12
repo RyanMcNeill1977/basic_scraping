@@ -4,7 +4,7 @@ So unfortunately, there's a number of steps involved in getting an HTML data int
 
 ### First a little about HTML
 
-As you likely know, underneath what you see in your web browser is a bunch of code, known as HTML (Hypertext Markup Language). It's outside the scope of this course to go deep into HTML (but there are ton of [tutorials](https://www.w3schools.com/html/) out there), but we do need to know a little.
+Underneath what you see in your web browser is a bunch of code, known as HTML (Hypertext Markup Language). It's outside the scope of this course to go deep into HTML (but there are ton of [tutorials](https://www.w3schools.com/html/) out there), but we do need to know a little.
 
 To see what it looks like in the wild, let's open up Chrome and go to [this Wikipedia page](https://en.wikipedia.org/wiki/List_of_United_Kingdom_Parliament_constituencies). Right-click and select "View Page Source."
 
@@ -25,7 +25,7 @@ Again, let's [take a look at this page](https://www.w3schools.com/html/html_list
 
 ## Importing an HTML table or list using Google Sheets. 
 
-So that's a lot of steps, right? For years, we had to do it that way. But now there's something simpler: Google Sheets. 
+So when we learned to import HTML tables into Excel, it took a lot of steps, right? But there's something simpler: Google Sheets. 
 
 With the use of just a single function, you can bring the same table into Google Sheets. It's really simple. 
 
@@ -161,14 +161,4 @@ And use =importHTML to grab the table from [this BLS site](https://www.bls.gov/n
 Next, use =importXML and XPATH to extract the following fields from the following [market indices found here](http://www.reuters.com/finance/markets/us). 
 
 ![Here's what you want.](../master/scraping15.jpg)
-
-
-
-
-
-
-
-
-
-
 
