@@ -167,4 +167,65 @@ Voila! Doesn't that look a lot cleaner?
 
 Now to truly make it usable, you'd want to clean up the header row. 
 
+### First a little about HTML
+
+Underneath what you see in your web browser is a bunch of code, known as HTML (Hypertext Markup Language). It's outside the scope of this course to go deep into HTML (but there are ton of [tutorials](https://www.w3schools.com/html/) out there), but we do need to know a little.
+
+To see what it looks like in the wild, let's open up Chrome and go to [this Wikipedia page](https://en.wikipedia.org/wiki/List_of_United_Kingdom_Parliament_constituencies). Right-click and select "View Page Source."
+
+HTML uses tags that look something like:
+
+```HTML
+<table>Scraping skills table</table>.
+```
+
+That creates a table. 
+
+Let's take a look at [this page together](https://www.w3schools.com/html/html_tables.asp) to see how tables work. 
+
+The other thing we need to know about are lists. 
+
+Again, let's [take a look at this page](https://www.w3schools.com/html/html_lists.asp) together to see how lists work. 
+
+
+## Importing an HTML table or list using Google Sheets. 
+
+So when we learned to import HTML tables into Excel, it took a lot of steps, right? But there's something simpler: Google Sheets. 
+
+With the use of just a single function, you can bring the same table into Google Sheets. It's really simple. 
+
+```
+=ImportHTML("url","element", "number of element")
+```
+
+It's pretty self-explanatory, right? The first argument, "url", is the web address. 
+
+The second argument, "element", is either "table" or "list". We're going to use "table" for this exercise.
+
+The third argument is the number of of the element (the list or the table). The numbers start at 0, not 1.  
+
+So let's give it a try. Open up Google Sheets and get a nice, blank worksheet. 
+
+In cell A1, type this:
+
+```
+=ImportHTML("https://en.wikipedia.org/wiki/List_of_United_Kingdom_Parliament_constituencies", "table", "0")
+```
+
+Nope. Let's try again. 
+
+```
+=ImportHTML("https://en.wikipedia.org/wiki/List_of_United_Kingdom_Parliament_constituencies", "table", "1")
+```
+
+Still not right. Maybe the third time is the charm. 
+
+```
+=ImportHTML("https://en.wikipedia.org/wiki/List_of_United_Kingdom_Parliament_constituencies", "table", "2")
+```
+
+Wow. Look at that. Easy right?
+
+
+
 
