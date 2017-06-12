@@ -1,9 +1,8 @@
 # Scraping Data from the Web 1: Free Resources for Storytellers
 
-I try to avoid scraping at all costs. It can be a real pain. Unfortunately, scraping data off websites is unavoidable. 
+Scraping is something that will make data journalists curse and scream. But it's an incredibly important tool in any journalist's toolbox. 
 
-For advanced scraping, there's no substitute for being able to write a scraper in a coding language, such as Python or Ruby. But the reality is that many of your scraping needs can be accomplished with a number of free tools. 
-
+For advanced scraping, there's no substitute for being able to write a scraper in a coding language, such as Python or Ruby. But the reality is that many of your scraping needs can be accomplished with a number of free tools. The tools we'll learn today will help you accomplish the overwhelming majority of scraping needs. 
 
 
 ### What is web scraping
@@ -37,13 +36,16 @@ And it allowed us to build this interactive.
 
 ![Here's what you want.](../master/scraping16.jpg)
 
+
 As you can see, scraping is an essential skill for reporters, no matter the beat. 
 
 ### What we're going to learn today
 
+
 Lesson 1: DownloadThemAll, HTML tables into Excel
 
-Lesson 2: Importing an HTML table into Google Sheets, Using XPATH with Google Sheets, Inspecting a webby map and grabbing the data
+
+Lesson 2: Importing an HTML table into Google Sheets, Using XPATH with Google Sheets, Import.io (and, if we have time, how to inspect a slippy map and see if there's data to extract). 
 
 
 ## DownloadThemAll!
