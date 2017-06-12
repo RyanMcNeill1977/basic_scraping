@@ -93,3 +93,88 @@ Next, use =importXML and XPATH to extract the following fields from the followin
 
 OK, let's be sports writers now. 
 
+On a daily basis, we want to know who has the league's best batting average. Let's take a look at [Major League Baseball's statistics website.](http://mlb.mlb.com/stats/sortable.jsp#elem=%5Bobject+Object%5D&tab_level=child&click_text=Sortable+Player+hitting&game_type='R'&season=2017&season_type=ANY&league_code='MLB'&sectionType=sp&statType=hitting&page=1&ts=1497271924071). 
+
+Take a look at the columns. We don't really need all of them. Really what we want is a daily report of RK (Rank), Player, Team, Pos (Position), G (Games), AB (at-bats), H (Hits) and AVG (batting average). 
+
+But the complicating factor is here at the bottom of the page. 
+
+![Here's what you want.](../master/import1.jpg)
+
+
+We can't really handle page navigation with the skills we've learned so far. But there are tools that can help us. Let's go to [import.io] and log in. 
+
+Go to the Dashboard. Let's create a new extractor. 
+
+![Here's what you want.](../master/import2.jpg)
+
+
+Ok, now enter the Major League Baseball statistics URL. 
+
+Import.io will go to work, taking a guess at what you want to scrape. The first thing that will pop up are the results. But we don't like someone else doing our work --- so let's click on the Edit tab at the top. 
+
+Now click on the "Start over with empty table" button. 
+
+![Here's what you want.](../master/import3.jpg)
+
+OK. Now we have a blank slate. Let's start teaching Import.io what we want. Start selecting the first few rows of the RK column. Do it until the entire column lights up. Also, name the column rank. Your screen should look like this. 
+
+![Here's what you want.](../master/import4.jpg)
+
+
+Pretty easy so far, right? Let's do the same for our other columns. Remember we want the following columns: RK (Rank), Player, Team, Pos (Position), G (Games), AB (at-bats), H (Hits) and AVG (batting average). I would name them rank, player, team, position, games, atbats, hits and average. To start a new column, use the add column button at the top. 
+
+![Here's what you want.](../master/import5.jpg)
+
+
+When you're done, your screen should look like this. 
+
+![Here's what you want.](../master/import6.jpg)
+
+
+Now click Save in the upper right. 
+
+![Here's what you want.](../master/import7.jpg)
+
+
+Import.io will now ask you to choose a name for your new Extractor, as well as how often you'd like it to run, depending on your subscription level (free memberships can't be scheduled. After you give yourself a name, click save and run.
+
+Import.io will go to work. And if you look in the bar, it has 50 rows of records. We know we have more records than that. Remember the navigation for additional players at the bottom of the page? Now we need to deal with that. Click on settings and you'll get a screen that looks like this. 
+
+
+![Here's what you want.](../master/import8.jpg)
+
+
+Let's go back to the MLB site and navigate to the next page. 
+
+![Here's what you want.](../master/import9.jpg)
+
+
+Once you're on the second page of results, grab the URL and put it into Import.io in the space highlighted in the screenshot. When you do, it will go into the list so that you have two URLs. 
+
+![Here's what you want.](../master/import10.jpg)
+
+Now click on the "Show URL Generator." 
+
+![Here's what you want.](../master/import11.jpg)
+
+
+Import.io has taken a guess --- just by looking at these two URLs --- at what the changing parameter might be. Now see where it says "Range of number"? Enter a 4. You should see four URLs in the list now. Now click "Add to list." 
+
+![Here's what you want.](../master/import12.jpg)
+
+
+Finally, click Save URLs. Then click Run URLs. 
+
+
+Import.io goes to work. When it is done, download the CSV and admire your work. 
+
+
+![Here's what you want.](../master/import13.jpg)
+
+
+
+
+
+
+
