@@ -42,7 +42,7 @@ As you can see, scraping is an essential skill for reporters, no matter the beat
 
 ### What we're going to learn today
 
-Lesson 1: DownloadThemAll, PDF table extraction with Tabula, HTML tables into Excel
+Lesson 1: DownloadThemAll, HTML tables into Excel
 
 Lesson 2: Importing an HTML table into Google Sheets, Using XPATH with Google Sheets, Inspecting a webby map and grabbing the data
 
@@ -65,37 +65,6 @@ Make sure you tell DownloadThemAll where you want to place the files, then click
 
 Pretty cool, huh?
 
-## Extracting tables from PDFs using Tabula
-
-Bureaucrats love PDFs. But reporters hate them. Why?
-
-Because PDFs are useless for any kind of meaningful analysis. If you want to analyze the data trapped in PDFs, you need to find a way to get the data into something like Excel or Google Sheets. 
-
-Well, let's learn how to free the data. 
-
-Let's use [this April home sales report](https://www.census.gov/construction/nrs/pdf/newressales.pdf) for New York from the U.S. Census Bureau. Spend a little time taking a look at the tables inside the PDF. 
-
-OK, now let's use [Comet Docs](https://www.cometdocs.com/), a free online file converter. We want to convert from PDF into Excel. 
-
-First thing, click on the "Go to Web App" button. 
-
-![Here's what you want.](../master/scraping3.jpg)
-
-Then click on Upload. 
-
-![Here's what you want.](../master/scraping4.jpg)
-
-Navigate to the Census Bureau housing PDF we downloaded and select it. Comet Docs will import the document. 
-
-![Here's what you want.](../master/scraping5.jpg)
-
-Now drag your uploaded file into the area underneath the convert button. In the next box, to the left of where you just dragged your file, click on "to Excel." Then enter your email address and hit convert. 
-
-![Here's what you want.](../master/scraping6.jpg)
-
-Now wait a short bit and check your email. Comet Docs will send you an email when your file is ready. 
-
-Once you get it, open it up. Voila! 
 
 ## HTML to Excel
 
@@ -198,8 +167,4 @@ Voila! Doesn't that look a lot cleaner?
 
 Now to truly make it usable, you'd want to clean up the header row. 
 
-
-## Now you try
-
-Let's download [this Census Bureau report](https://www.census.gov/construction/nrc/pdf/bpsa.pdf) on historical private housing starts. There's 11 pages  of historical data. Use Comet Docs to turn it into a useful Excel sheet. 
 
