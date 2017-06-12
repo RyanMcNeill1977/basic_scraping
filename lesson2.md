@@ -88,3 +88,8 @@ Next, use =importXML and XPATH to extract the following fields from the followin
 
 ![Here's what you want.](../master/scraping15.jpg)
 
+
+## Scraping with import.io
+
+OK, let's be sports writers now. 
+
