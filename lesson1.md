@@ -116,29 +116,85 @@ Right click on the web page in Chrome and select "Save as..." We're going to sav
 
 Name it whatever you want and click "Save." 
 
+![Here's what you want.](../master/scraping17.jpg)
+
+
 So we've saved the HTML page to our hard drive. Now let's open Excel to a black worksheet. 
 
-Click on the circle thingy in the top left and click "Open." Navigate to where you saved your HTML file. In the bottom left of the window, make sure you change from just looking for Excel files to "All Files *.*)". Select your HTML file. 
+Click on the circle thingy in the top left and click "Open." Navigate to where you saved your HTML file. 
+
+
+![Here's what you want.](../master/scraping18.jpg)
+
+
+In the bottom left of the window, make sure you change from just looking for Excel files to "All Files *.*)". Select your HTML file. 
+
+
+![Here's what you want.](../master/scraping19.jpg)
+
 
 It might give you a window that looks like this --- click OK. 
 
+![Here's what you want.](../master/scraping20.jpg)
+
+
 You see a bunch of stuff that looks familiar from the Wikipedia web page. Scroll down until you see the table we're interested in. Great. But we're not done. 
 
-Let's highlight the whole area of the table. Use CTRL-C to copy. Let's click on a new tab at the bottom of Excel and place your mouse in cell A1. Use CTRL-V to paste. 
+Let's highlight the whole area of the table we want. Use CTRL-C to copy. 
+
+
+![Here's what you want.](../master/scraping21.jpg)
+
+
+Let's click on a new tab at the bottom of Excel and place your mouse in cell A1. Use CTRL-V to paste. 
+
+
+![Here's what you want.](../master/scraping22.jpg)
+
 
 At this point, I want to get rid of all the flashy HTML links and such. The way I do it is to save the file in some sort of text format, such as CSV or tab-delimited. For this class, let's all save as CSV. 
 
-To do this, go back to that little circle thingy in the upper left-hand corner of Excel. Click on "Save as" again, but this type select "CSV (comma-delimited)(\*.csv)." Click save. 
+To do this, go back to that little circle thingy in the upper left-hand corner of Excel. Click on "Save as" again, but this type select 
+"Other formats."
+
+
+![Here's what you want.](../master/scraping23.jpg)
+
+
+Then choose "CSV (comma-delimited)(\*.csv)." Click save. 
+
+
+![Here's what you want.](../master/scraping24.jpg)
+
+
+OK. Exit out of that and open a fresh new blank spreadsheet. 
 
 Now go to the Data tab in Excel. Select "From text" and then navigate to your file. 
 
+
+![Here's what you want.](../master/scraping25.jpg)
+
+
 Now you'll choose delimited. Click next. 
+
+
+![Here's what you want.](../master/scraping25.jpg)
+
 
 Change the delimiters to comma. Click next.
 
+
+![Here's what you want.](../master/scraping26.jpg)
+
+
 For now, we don't have to worry about what's on the next screen. Click finish. 
 
+
 Voila! Doesn't that look a lot cleaner?
+
+
+![Here's what you want.](../master/scraping27.jpg)
+
 
 Now to truly make it usable, you'd want to clean up the header row. 
 
