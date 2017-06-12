@@ -82,18 +82,7 @@ OK. Let's repeat that step and do the US dollar/Aussie dollar row.
 ![Here's what you want.](../master/scraping13.jpg)
 
 
-
-## Now you try. 
-
-Try some on your own. 
-
-First try scraping a table using =importHTML from a [Wikipedia page](https://en.wikipedia.org/wiki/United_States_presidential_election,_2016). Let's grab the electoral results found in this table: 
-
-
-![Here's what you want.](../master/scraping14.jpg)
-
-
-And use =importHTML to grab the table from [this BLS site](https://www.bls.gov/news.release/archives/metro_05312017.htm). 
+## Now you try
 
 Next, use =importXML and XPATH to extract the following fields from the following [market indices found here](http://www.reuters.com/finance/markets/us). 
 
