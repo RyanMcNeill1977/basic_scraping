@@ -199,3 +199,7 @@ Voila! Doesn't that look a lot cleaner?
 Now to truly make it usable, you'd want to clean up the header row. 
 
 
+## Now you try
+
+Let's download [this Census Bureau report](https://www.census.gov/construction/nrc/pdf/bpsa.pdf) on historical private housing starts. There's 11 pages  of historical data. Use Comet Docs to turn it into a useful Excel sheet. 
+
