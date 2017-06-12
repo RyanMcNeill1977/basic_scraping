@@ -2,8 +2,28 @@
 
 So unfortunately, there's a number of steps involved in getting an HTML data into Excel. There's a few reasons why you might want to do it the way we just learned. But generally speaking, getting an HTML data into a spreadsheet is significantly easier using Google Sheets. Let's learn how. 
 
+### First a little about HTML
 
-## Importing an HTML table using Google Sheets. 
+As you likely know, underneath what you see in your web browser is a bunch of code, known as HTML (Hypertext Markup Language). It's outside the scope of this course to go deep into HTML (but there are ton of [tutorials](https://www.w3schools.com/html/) out there), but we do need to know a little.
+
+To see what it looks like in the wild, let's open up Chrome and go to [this Wikipedia page](https://en.wikipedia.org/wiki/List_of_United_Kingdom_Parliament_constituencies). Right-click and select "View Page Source."
+
+HTML uses tags that look something like:
+
+```HTML
+<table>Scraping skills table</table>.
+```
+
+That creates a table. 
+
+Let's take a look at [this page together](https://www.w3schools.com/html/html_tables.asp) to see how tables work. 
+
+The other thing we need to know about are lists. 
+
+Again, let's [take a look at this page](https://www.w3schools.com/html/html_lists.asp) together to see how lists work. 
+
+
+## Importing an HTML table or list using Google Sheets. 
 
 So that's a lot of steps, right? For years, we had to do it that way. But now there's something simpler: Google Sheets. 
 
