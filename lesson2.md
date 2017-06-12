@@ -55,7 +55,7 @@ It's called importXML and it looks almost the same as importHTML, but with two a
 
 OK. So what is XPath?
 
-XPath is an expression that allows you to point toward things, or groups of things on a web site. Getting into XPath will take us down a rabbit hole. If you want to learn more, you can start somewhere like this [web site](https://www.webperformance.com/load-testing-tools/blog/real-browser-manual/building-a-testcase/how-locate-element-the-page/xpath-locator-examples/).
+XPath is an expression that allows you to point toward things, or groups of things on a web site. Getting too deep into XPath will take us down a rabbit hole. If you want to learn more, you can start somewhere like this [web site](https://www.webperformance.com/load-testing-tools/blog/real-browser-manual/building-a-testcase/how-locate-element-the-page/xpath-locator-examples/).
 
 Luckily, your Chrome browser provides a pretty good way of figuring out the XPath of an element without much work. 
 
