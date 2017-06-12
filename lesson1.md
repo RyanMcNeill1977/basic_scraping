@@ -18,7 +18,11 @@ Lesson 1: DownloadThemAll, PDF table extraction with Tabula, HTML tables into Ex
 
 Lesson 2: Importing an HTML table into Google Sheets, Using XPATH with Google Sheets, Inspecting a webby map and grabbing the data
 
+## Why do we scrape
 
+Scraping can be a pain, but it is also a way to keep you ahead of your competition. It can also help you "datify" something that isn't very structured. 
+
+<need a little more here>
 
 ## DownloadThemAll!
 
@@ -76,20 +80,6 @@ The best way to get data is a nice, formatted dataset. An Excel sheet. A CSV. Bu
 
 Sometimes you see a table online that you want. For example, take a look at [this Wikipedia page](https://en.wikipedia.org/wiki/List_of_United_States_presidential_elections_by_popular_vote_margin)
 on presidential election results. Or [this Wikipedia table](https://en.wikipedia.org/wiki/List_of_United_Kingdom_Parliament_constituencies) UK parliamentary constituencies. Today we're going to learn how to get those tables into a spreadsheet with little or no pain. 
-
-### First a little about HTML
-
-As you likely know, underneath what you see in your web browser is a bunch of code, known as HTML (Hypertext Markup Language). It's outside the scope of this course to go deep into HTML (but there are ton of [tutorials](https://www.w3schools.com/html/) out there), but we do need to know a little.
-
-To see what it looks like, let's open up Chrome and go to [this Wikipedia page](https://en.wikipedia.org/wiki/List_of_United_Kingdom_Parliament_constituencies). Right-click and select "View Page Source."
-
-***screen shot here***
-
-HTML uses tags that look something like:
-
-```HTML
-<table>Scraping skills table</table>.
-```
 
 To start, we are just going to worry about tables. Let's go back to that [Wikipedia page](https://en.wikipedia.org/wiki/List_of_United_Kingdom_Parliament_constituencies) of UK parliamentary constituencies. 
 
