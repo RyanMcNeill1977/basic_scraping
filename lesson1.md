@@ -12,17 +12,35 @@ For advanced scraping, there's no substitute for being able to write a scraper i
 
 “Web scraping is the act of taking content from a website with the intent of using it for purposes outside the direct control of the site owner.”  [Source:Web Scraping : Everything You Wanted to Know (but were afraid to ask). JULY 22, 2015 by COURTNEY CLEAVES   http://resources.distilnetworks.com/h/i/111901208-web-scraping-everything-you-wanted-to-know-but-were-afraid-to-ask/181642
 
+## Why do we scrape
+
+Scraping can be a pain, but it is also a way to keep you ahead of your competition. It can also help you "datify" something that isn't very structured. 
+
+A few examples of what we might scrape:
+
+--- A state courts website that doesn't make available the raw underlying data
+--- If you're working on a story and want to make sure your spreadsheet always has the most up-to-date information on something like currency exchange rates, stock prices or weather. 
+--- A PDF with all kinds of great information from a government agency. 
+--- Message board postings from people seeking to get rid of adopted children. 
+
+When I first arrived at Reuters, I was assigned to work on a project that would become [The Child Exchange](http://www.reuters.com/investigates/adoption/#article/part1). A few key findings from the story were made possible via scraping. 
+
+The most important: 
+
+"Reuters analyzed 5,029 posts from a five-year period on one Internet message board, a Yahoo group. On average, a child was advertised for re-homing there once a week. Most of the children ranged in age from 6 to 14 and had been adopted from abroad – from countries such as Russia and China, Ethiopia and Ukraine. The youngest was 10 months old."
+
+And it allowed us to build this interactive.
+
+![Here's what you want.](../master/scraping16.jpg)
+
+
 ### What we're going to learn today
 
 Lesson 1: DownloadThemAll, PDF table extraction with Tabula, HTML tables into Excel
 
 Lesson 2: Importing an HTML table into Google Sheets, Using XPATH with Google Sheets, Inspecting a webby map and grabbing the data
 
-## Why do we scrape
 
-Scraping can be a pain, but it is also a way to keep you ahead of your competition. It can also help you "datify" something that isn't very structured. 
-
-<need a little more here>
 
 ## DownloadThemAll!
 
