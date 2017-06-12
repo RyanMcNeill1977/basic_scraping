@@ -19,8 +19,11 @@ Scraping can be a pain, but it is also a way to keep you ahead of your competiti
 A few examples of what we might scrape:
 
 --- A state courts website that doesn't make available the raw underlying data
+
 --- If you're working on a story and want to make sure your spreadsheet always has the most up-to-date information on something like currency exchange rates, stock prices or weather. 
+
 --- A PDF with all kinds of great information from a government agency. 
+
 --- Message board postings from people seeking to get rid of adopted children. 
 
 When I first arrived at Reuters, I was assigned to work on a project that would become [The Child Exchange](http://www.reuters.com/investigates/adoption/#article/part1). A few key findings from the story were made possible via scraping. 
