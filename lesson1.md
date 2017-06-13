@@ -42,10 +42,9 @@ As you can see, scraping is an essential skill for reporters, no matter the beat
 ### What we're going to learn today
 
 
-Lesson 1: DownloadThemAll, HTML tables into Excel
+Lesson 1: DownloadThemAll, HTML tables into Excel, Importing an HTML table into Google Sheets
 
-
-Lesson 2: Importing an HTML table into Google Sheets, Using XPATH with Google Sheets, Import.io (and, if we have time, how to inspect a slippy map and see if there's data to extract). 
+Lesson 2: Using XPATH with Google Sheets, Import.io (and, if we have time, how to inspect a slippy map and see if there's data to extract). 
 
 
 ## DownloadThemAll!
