@@ -172,6 +172,9 @@ Import.io goes to work. When it is done, download the CSV and admire your work.
 
 ![Here's what you want.](../master/import13.jpg)
 
+## Now you try
+
+Here are the [NFL statistics for the league's leading rushers.](http://www.nfl.com/stats/categorystats?tabSeq=0&statisticCategory=RUSHING&conference=null&season=2016&seasonType=REG&d-447263-s=RUSHING_YARDS&d-447263-o=2&d-447263-n=1). Use import.io to extract rank, player, team, attempts, yards, average and touchdowns for all seven pages. 
 
 
 
