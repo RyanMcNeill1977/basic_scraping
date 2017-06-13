@@ -245,4 +245,4 @@ First try scraping a table using =importHTML from a [Wikipedia page](https://en.
 
 And use =importHTML to grab the table from [this BLS site](https://www.bls.gov/news.release/archives/metro_05312017.htm). 
 
-
+And use Excel to import the [list of Oklahoma governors](https://en.wikipedia.org/wiki/List_of_Governors_of_Oklahoma). Make sure to clean it up by turning it into a CSV. 
